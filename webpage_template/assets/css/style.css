@@ -3,7 +3,7 @@ Author: Xpeedstudio
 Author URI: http://xpeedstudio.com
 */
 
-/*========================================== 
+/*==========================================
  01.  PREDIFINEED (FROM 1 TO 780 )
  02.  PRELOADER - LINE NO 786
  03.  NAVIGATION - LINE NO 930
@@ -38,7 +38,7 @@ body {
 
 /*------------------------------------------------------------------*/
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
-/*-----------------------------------------------------------------*/
+         /*-----------------------------------------------------------------*/
 
 @-webkit-viewport {
   width: device-width;
@@ -57,8 +57,8 @@ body {
 }
 
 /*
-    Page Content
-------------------------------------------*/
+             Page Content
+         ------------------------------------------*/
 
 .page-content,
 section {
@@ -66,15 +66,15 @@ section {
 }
 
 /*
-    On Scroll Animations 
-------------------------------------------*/
+             On Scroll Animations 
+         ------------------------------------------*/
 
 /*.animated { visibility: hidden; }
-.visible { visibility: visible; }*/
+         .visible { visibility: visible; }*/
 
 /*
-    Spacing & Alignment 
-------------------------------------------*/
+             Spacing & Alignment 
+         ------------------------------------------*/
 
 .roomy-100 {
   padding-top: 100px;
@@ -111,13 +111,13 @@ section {
 .text-muted {
 }
 .text-primary {
-  color: #f39702 !important;
+  color: #0078d7 !important;
 }
 .text-finence {
   color: #13a0b2 !important;
 }
 .text-mega {
-  color: #f39702 !important;
+  color: #0078d7 !important;
 }
 .text-white {
   color: #fff !important;
@@ -138,7 +138,7 @@ section {
   background-color: #f2f2f2;
 }
 .bg-primary {
-  background-color: #f39702;
+  background-color: #0078d7;
 }
 .bg-finence {
   background-color: #13a0b2;
@@ -289,7 +289,7 @@ h3 span,
 h4 span,
 h5 span,
 p span {
-  color: #f39702;
+  color: #0078d7;
 }
 
 p {
@@ -332,8 +332,8 @@ p:last-child {
 }
 
 /*
-Section
-*/
+         Section
+         */
 
 .parallax-section {
   max-width: 100%;
@@ -375,30 +375,30 @@ ul {
 }
 
 /*
-Separator
-*/
+         Separator
+         */
 .separator_left {
   width: 85px;
   height: 2px;
   margin: 20px 0px;
-  background: #f39702;
+  background: #0078d7;
 }
 .separator_auto {
   width: 85px;
   height: 2px;
   margin: 20px auto;
-  background: #f39702;
+  background: #0078d7;
 }
 .separator_small {
   width: 30px;
   height: 2px;
   margin: 20px 0px;
-  background: #f39702;
+  background: #0078d7;
 }
 
 /*
-Button
-*/
+         Button
+         */
 .btn {
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
@@ -409,14 +409,14 @@ Button
 }
 .btn-primary {
   color: #fff;
-  background-color: #f39702;
+  background-color: #0078d7;
   border: 1px solid;
-  border-color: #f39702;
+  border-color: #0078d7;
 }
 .btn-primary:hover {
   background-color: #eee;
   border-color: #eee;
-  color: #f39702;
+  color: #0078d7;
 }
 
 .btn-default {
@@ -427,16 +427,16 @@ Button
 }
 .btn-default:hover {
   color: #fff;
-  background-color: #f39702;
-  border-color: #f39702;
+  background-color: #0078d7;
+  border-color: #0078d7;
 }
 
 /*
-socail icon
---------------------------------*/
+         socail icon
+         --------------------------------*/
 /*
-Extra height css
-*/
+         Extra height css
+         */
 .m-0 {
   margin: 0 !important;
 }
@@ -717,7 +717,7 @@ textarea::-ms-input-placeholder {
 
 /*Preloader*/
 #loading {
-  background-color: #f39702;
+  background-color: #0078d7;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -865,8 +865,8 @@ textarea::-ms-input-placeholder {
 /*End off Preloader*/
 
 /*
-Nav Menu style
-==================*/
+         Nav Menu style
+         ==================*/
 
 .navbar-brand {
   padding: 25px 15px;
@@ -884,7 +884,7 @@ Nav Menu style
 }
 .navbar-callus li a i {
   font-size: 13px;
-  color: #f39702;
+  color: #0078d7;
   margin-right: 5px;
 }
 .navbar-socail li a {
@@ -899,11 +899,11 @@ Nav Menu style
 }
 
 /*
-Home Section style
-==================*/
+         Home Section style
+         ==================*/
 
 .home {
-  background: url(../images/home-bg.jpg) no-repeat scroll center center;
+  background: url(../images/home-bg.png) no-repeat scroll center center;
   background-size: cover;
   position: relative;
   padding-top: 300px;
@@ -947,7 +947,7 @@ Home Section style
 }
 .main_home .slick-dots li.slick-active button:before {
   opacity: 1;
-  background-color: #f39702;
+  background-color: #0078d7;
 }
 .main_home .slick-dots {
   bottom: -200px;
@@ -976,8 +976,8 @@ Home Section style
 }
 
 /*
-Featured section style
-========================*/
+         Featured section style
+         ========================*/
 
 .features_item .f_item_icon {
   float: left;
@@ -987,7 +987,7 @@ Featured section style
 }
 .features_item .f_item_icon i {
   font-size: 4rem;
-  color: #f39702;
+  color: #0078d7;
 }
 .features_item .f_item_text {
   display: inline-block;
@@ -1068,8 +1068,8 @@ Featured section style
 .business_slid .nextprevleft:hover,
 .business_slid .nextprevright:hover {
   /*    width:25px;
-        height: 25px;
-        line-height: 25px;*/
+                 height: 25px;
+                 line-height: 25px;*/
   /*text-align: center;*/
   background-color: #ddd;
   border-radius: 50%;
@@ -1087,22 +1087,22 @@ Featured section style
 }
 
 /*
-work Section style
-=====================*/
+         work Section style
+         =====================*/
 
 /*.slides{
-    width:100%;
-    height: auto;
-}*/
+             width:100%;
+             height: auto;
+         }*/
 /*#owl-demo .item{
-    width:350px;
-    height:350px;
-}
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: 300px;
-}*/
+             width:350px;
+             height:350px;
+         }
+         #owl-demo .item img{
+             display: block;
+             width: 100%;
+             height: 300px;
+         }*/
 
 .main_product .carousel-control {
   background-color: #fff;
@@ -1116,7 +1116,7 @@ work Section style
   top: 30%;
 }
 .main_product .carousel-control:hover {
-  background-color: #f39702;
+  background-color: #0078d7;
   color: #fff;
 }
 .main_product .carousel-control.left {
@@ -1139,7 +1139,7 @@ work Section style
 .main_product .port_overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 168, 133, 0.6);
+  background-color: rgba(0, 120, 215, 0.6);
   position: absolute;
   left: 0;
   top: 0;
@@ -1168,7 +1168,7 @@ work Section style
 }
 
 /*Test Section
-======================*/
+         ======================*/
 .main_test {
   width: 100%;
   display: block;
@@ -1184,7 +1184,7 @@ work Section style
 }
 .test_item:hover .item_img i {
   color: #fff;
-  background-color: #f39702;
+  background-color: #0078d7;
 }
 
 .main_test .item_img {
@@ -1215,7 +1215,7 @@ work Section style
 }
 
 /*Brand Section
-=========================*/
+         =========================*/
 .brand_item img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -1228,11 +1228,11 @@ work Section style
 }
 
 /*call to action
-=========================*/
+         =========================*/
 
 .action_btn .btn-default:hover {
   background-color: #fff;
-  color: #f39702;
+  color: #0078d7;
 }
 .action-lage {
   position: relative;
@@ -1245,7 +1245,7 @@ work Section style
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-top: 20px solid #f39702;
+  border-top: 20px solid #0078d7;
   left: 50%;
   top: 0%;
   z-index: 3;
@@ -1266,7 +1266,7 @@ work Section style
   font-weight: 700;
 }
 .widget_item .btn:hover {
-  background-color: #0ec9a2;
+  background-color: #0078d7;
 }
 .widget_item li a {
   color: #aaa;
@@ -1334,8 +1334,8 @@ work Section style
 .widget_newsletter .btn {
   width: 20%;
   padding: 0.65rem 1.2rem;
-  background-color: #f39702;
-  border-color: #f39702;
+  background-color: #0078d7;
+  border-color: #0078d7;
   color: #fff;
   border-radius: 0;
   margin-left: -4px;
